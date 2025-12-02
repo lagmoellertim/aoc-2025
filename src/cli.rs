@@ -20,7 +20,7 @@ struct Args {
     #[arg(short, long)]
     input: Option<PathBuf>,
 
-    #[arg(short, long, default_value = "1000")]
+    #[arg(short, long, default_value = "1")]
     runs: usize,
 }
 
