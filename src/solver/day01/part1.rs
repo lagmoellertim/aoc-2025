@@ -13,7 +13,6 @@ fn solve_day01_part01_puzzle(input: &str) -> String {
         }
     }
 
-
     count.to_string()
 }
 

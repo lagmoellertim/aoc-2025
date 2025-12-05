@@ -12,7 +12,7 @@ fn solve_day02_part01_puzzle(input: &str) -> String {
                 continue;
             }
 
-            let is_invalid = (chars[0..chars.len() / 2] == chars[chars.len() / 2..chars.len()]);
+            let is_invalid = chars[0..chars.len() / 2] == chars[chars.len() / 2..chars.len()];
 
             if is_invalid {
                 sum += id;
