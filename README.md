@@ -70,7 +70,7 @@ Options:
 | 05  | Cafeteria           |   ✅    |   ✅    | [Source](https://github.com/lagmoellertim/aoc-2025/tree/main/src/solver/day05) | [AoC](https://adventofcode.com/2025/day/5) |
 | 06  | Trash Compactor     |   ✅    |   ✅    | [Source](https://github.com/lagmoellertim/aoc-2025/tree/main/src/solver/day06) | [AoC](https://adventofcode.com/2025/day/6) |
 | 07  | Laboratories        |   ✅    |   ✅    | [Source](https://github.com/lagmoellertim/aoc-2025/tree/main/src/solver/day07) | [AoC](https://adventofcode.com/2025/day/7) |
-| 08  | TBD                 |   ⬜    |   ⬜    |                                      TBD                                       |                    TBD                     |
+| 08  | Playground          |   ✅    |   ✅    | [Source](https://github.com/lagmoellertim/aoc-2025/tree/main/src/solver/day08) | [AoC](https://adventofcode.com/2025/day/8) |
 | 09  | TBD                 |   ⬜    |   ⬜    |                                      TBD                                       |                    TBD                     |
 | 10  | TBD                 |   ⬜    |   ⬜    |                                      TBD                                       |                    TBD                     |
 | 11  | TBD                 |   ⬜    |   ⬜    |                                      TBD                                       |                    TBD                     |
