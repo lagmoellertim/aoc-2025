@@ -23,7 +23,6 @@ impl Add for Point {
 fn parse_red_tile_positions(input: &str) -> Vec<Point> {
     input
         .lines()
-        .into_iter()
         .map(|line| {
             let numbers = line
                 .split(",")

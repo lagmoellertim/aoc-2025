@@ -20,7 +20,6 @@ impl Coordinate {
 fn parse_coordinates(input: &str) -> Vec<Coordinate> {
     input
         .lines()
-        .into_iter()
         .map(|line| {
             let numbers = line
                 .split(",")

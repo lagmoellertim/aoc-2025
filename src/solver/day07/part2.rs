@@ -10,18 +10,15 @@ fn solve_day07_part02_puzzle(input: &str) -> String {
 
     for row in remaining_rows {
         for (beam, quantum_superposition_count) in beams.clone() {
-            match row[beam] {
-                Cell::Splitter => {
-                    beams.remove(&beam);
-                    *beams.entry(beam - 1).or_insert(0) += quantum_superposition_count;
-                    *beams.entry(beam + 1).or_insert(0) += quantum_superposition_count;
-                }
-                _ => {}
+            if let Cell::Splitter = row[beam] {
+                beams.remove(&beam);
+                *beams.entry(beam - 1).or_insert(0) += quantum_superposition_count;
+                *beams.entry(beam + 1).or_insert(0) += quantum_superposition_count;
             }
         }
     }
 
-    beams.into_iter().map(|(_, quantum_superposition_count)| quantum_superposition_count).sum::<i64>().to_string()
+    beams.into_values().sum::<i64>().to_string()
 }
 
 register_solver! {

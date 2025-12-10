@@ -19,7 +19,7 @@ impl From<char> for Cell {
     }
 }
 
-fn find_start_beam_and_remaining_rows(diagram: &Vec<Vec<Cell>>) -> (usize, &[Vec<Cell>]) {
+fn find_start_beam_and_remaining_rows(diagram: &[Vec<Cell>]) -> (usize, &[Vec<Cell>]) {
     let mut start_position = None;
     for (row_index, row) in diagram.iter().enumerate() {
         for (column_index, cell) in row.iter().enumerate() {
@@ -35,5 +35,5 @@ fn find_start_beam_and_remaining_rows(diagram: &Vec<Vec<Cell>>) -> (usize, &[Vec
 }
 
 fn parse_tachyon_manifold_diagram(input: &str) -> Vec<Vec<Cell>> {
-    input.lines().into_iter().map(|line| line.chars().map(|c| c.into()).collect()).collect()
+    input.lines().map(|line| line.chars().map(|c| c.into()).collect()).collect()
 }

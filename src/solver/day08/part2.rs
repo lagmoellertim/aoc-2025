@@ -10,7 +10,7 @@ fn solve_day08_part02_puzzle(input: &str) -> String {
         .iter()
         .enumerate()
         .tuple_combinations()
-        .map(|((i, coordinate_1), (j, coordinate_2))| (coordinate_1.distance(&coordinate_2), i, j))
+        .map(|((i, coordinate_1), (j, coordinate_2))| (coordinate_1.distance(coordinate_2), i, j))
         .sorted_by(|(d1, _, _), (d2, _, _)| d1.total_cmp(d2));
 
     let mut clusters: Vec<HashSet<usize>> = vec![];

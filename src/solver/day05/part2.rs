@@ -34,12 +34,11 @@ fn merge_ranges(overlapping_ranges: impl AsRef<[RangeInclusive<i64>]>) -> Vec<Ra
 
         overlap_count += enter_events - leave_events;
 
-        if let Some(start) = current_start {
-            if overlap_count == 0 {
+        if let Some(start) = current_start
+            && overlap_count == 0 {
                 merged_ranges.push(start..=position);
                 current_start = None;
             }
-        }
     }
 
     merged_ranges

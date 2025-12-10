@@ -12,15 +12,12 @@ fn solve_day07_part01_puzzle(input: &str) -> String {
 
     for row in remaining_rows {
         for beam in beams.clone() {
-            match row[beam] {
-                Cell::Splitter => {
-                    beams.remove(&beam);
-                    beam_splits += 1;
+            if let Cell::Splitter = row[beam] {
+                beams.remove(&beam);
+                beam_splits += 1;
 
-                    beams.insert(beam - 1);
-                    beams.insert(beam + 1);
-                }
-                _ => {}
+                beams.insert(beam - 1);
+                beams.insert(beam + 1);
             }
         }
     }

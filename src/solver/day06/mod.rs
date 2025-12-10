@@ -61,7 +61,7 @@ fn parse_problems(input: &str) -> Vec<Problem> {
             };
 
             let padded_numbers = other
-                .into_iter()
+                .iter()
                 .map(|padded_number| padded_number.to_string())
                 .collect::<Vec<_>>();
 
