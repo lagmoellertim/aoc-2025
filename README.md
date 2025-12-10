@@ -61,20 +61,20 @@ Options:
 
 ## 🎁 Progress
 
-| Day | Puzzle Name         | Part 1 | Part 2 |                                      Code                                      |                   Puzzle                   |
-|:---:|:--------------------|:------:|:------:|:------------------------------------------------------------------------------:|:------------------------------------------:|
-| 01  | Secret Entrance     |   ✅    |   ✅    | [Source](https://github.com/lagmoellertim/aoc-2025/tree/main/src/solver/day01) | [AoC](https://adventofcode.com/2025/day/1) |
-| 02  | Gift Shop           |   ✅    |   ✅    | [Source](https://github.com/lagmoellertim/aoc-2025/tree/main/src/solver/day02) | [AoC](https://adventofcode.com/2025/day/2) |
-| 03  | Lobby               |   ✅    |   ✅    | [Source](https://github.com/lagmoellertim/aoc-2025/tree/main/src/solver/day03) | [AoC](https://adventofcode.com/2025/day/3) |
-| 04  | Printing Department |   ✅    |   ✅    | [Source](https://github.com/lagmoellertim/aoc-2025/tree/main/src/solver/day04) | [AoC](https://adventofcode.com/2025/day/4) |
-| 05  | Cafeteria           |   ✅    |   ✅    | [Source](https://github.com/lagmoellertim/aoc-2025/tree/main/src/solver/day05) | [AoC](https://adventofcode.com/2025/day/5) |
-| 06  | Trash Compactor     |   ✅    |   ✅    | [Source](https://github.com/lagmoellertim/aoc-2025/tree/main/src/solver/day06) | [AoC](https://adventofcode.com/2025/day/6) |
-| 07  | Laboratories        |   ✅    |   ✅    | [Source](https://github.com/lagmoellertim/aoc-2025/tree/main/src/solver/day07) | [AoC](https://adventofcode.com/2025/day/7) |
-| 08  | Playground          |   ✅    |   ✅    | [Source](https://github.com/lagmoellertim/aoc-2025/tree/main/src/solver/day08) | [AoC](https://adventofcode.com/2025/day/8) |
-| 09  | Movie Theater       |   ✅    |   ✅    | [Source](https://github.com/lagmoellertim/aoc-2025/tree/main/src/solver/day09) | [AoC](https://adventofcode.com/2025/day/9) |
-| 10  | TBD                 |   ⬜    |   ⬜    |                                      TBD                                       |                    TBD                     |
-| 11  | TBD                 |   ⬜    |   ⬜    |                                      TBD                                       |                    TBD                     |
-| 12  | TBD                 |   ⬜    |   ⬜    |                                      TBD                                       |                    TBD                     |
+| Day | Puzzle Name         | Part 1 | Part 2 |                                      Code                                      |                   Puzzle                    |
+|:---:|:--------------------|:------:|:------:|:------------------------------------------------------------------------------:|:-------------------------------------------:|
+| 01  | Secret Entrance     |   ✅    |   ✅    | [Source](https://github.com/lagmoellertim/aoc-2025/tree/main/src/solver/day01) | [AoC](https://adventofcode.com/2025/day/1)  |
+| 02  | Gift Shop           |   ✅    |   ✅    | [Source](https://github.com/lagmoellertim/aoc-2025/tree/main/src/solver/day02) | [AoC](https://adventofcode.com/2025/day/2)  |
+| 03  | Lobby               |   ✅    |   ✅    | [Source](https://github.com/lagmoellertim/aoc-2025/tree/main/src/solver/day03) | [AoC](https://adventofcode.com/2025/day/3)  |
+| 04  | Printing Department |   ✅    |   ✅    | [Source](https://github.com/lagmoellertim/aoc-2025/tree/main/src/solver/day04) | [AoC](https://adventofcode.com/2025/day/4)  |
+| 05  | Cafeteria           |   ✅    |   ✅    | [Source](https://github.com/lagmoellertim/aoc-2025/tree/main/src/solver/day05) | [AoC](https://adventofcode.com/2025/day/5)  |
+| 06  | Trash Compactor     |   ✅    |   ✅    | [Source](https://github.com/lagmoellertim/aoc-2025/tree/main/src/solver/day06) | [AoC](https://adventofcode.com/2025/day/6)  |
+| 07  | Laboratories        |   ✅    |   ✅    | [Source](https://github.com/lagmoellertim/aoc-2025/tree/main/src/solver/day07) | [AoC](https://adventofcode.com/2025/day/7)  |
+| 08  | Playground          |   ✅    |   ✅    | [Source](https://github.com/lagmoellertim/aoc-2025/tree/main/src/solver/day08) | [AoC](https://adventofcode.com/2025/day/8)  |
+| 09  | Movie Theater       |   ✅    |   ✅    | [Source](https://github.com/lagmoellertim/aoc-2025/tree/main/src/solver/day09) | [AoC](https://adventofcode.com/2025/day/9)  |
+| 10  | Factory             |   ✅    |   ✅    | [Source](https://github.com/lagmoellertim/aoc-2025/tree/main/src/solver/day10) | [AoC](https://adventofcode.com/2025/day/10) |
+| 11  | TBD                 |   ⬜    |   ⬜    |                                      TBD                                       |                     TBD                     |
+| 12  | TBD                 |   ⬜    |   ⬜    |                                      TBD                                       |                     TBD                     |
 
 **Key:**
 
