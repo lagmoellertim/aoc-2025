@@ -73,7 +73,7 @@ Options:
 | 08  | Playground          |   ✅    |   ✅    | [Source](https://github.com/lagmoellertim/aoc-2025/tree/main/src/solver/day08) | [AoC](https://adventofcode.com/2025/day/8)  |
 | 09  | Movie Theater       |   ✅    |   ✅    | [Source](https://github.com/lagmoellertim/aoc-2025/tree/main/src/solver/day09) | [AoC](https://adventofcode.com/2025/day/9)  |
 | 10  | Factory             |   ✅    |   ✅    | [Source](https://github.com/lagmoellertim/aoc-2025/tree/main/src/solver/day10) | [AoC](https://adventofcode.com/2025/day/10) |
-| 11  | TBD                 |   ⬜    |   ⬜    |                                      TBD                                       |                     TBD                     |
+| 11  | Reactor             |   ✅    |   ✅    | [Source](https://github.com/lagmoellertim/aoc-2025/tree/main/src/solver/day11) | [AoC](https://adventofcode.com/2025/day/11) |
 | 12  | TBD                 |   ⬜    |   ⬜    |                                      TBD                                       |                     TBD                     |
 
 **Key:**
